@@ -4,6 +4,7 @@ import MyInput from './UI/input/MyInput';
 
 function PostForm({create}){
 
+    // create-new-post, newPost variable set
     const addNewPost = (e) => {
         e.preventDefault()
         const newPost = {
